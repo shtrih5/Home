@@ -22,7 +22,7 @@ namespace Home
             for (int i = 0; i < myArray.Length; i++)
             {
 
-                Console.Write($"Ввидите значение для элемента № {i}:  ");
+                Console.Write($"Ввидите значение для элемента № {i}: ");
                 myArray[i] = Convert.ToInt32(Console.ReadLine());
 
             }
